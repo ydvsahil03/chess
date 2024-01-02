@@ -1,5 +1,5 @@
 import pygame as p
-import ChessEngine as CE
+import ChessEngine as Ce
 
 WIDTH = HEIGHT = 512
 DIMENSIONS = 8
@@ -19,7 +19,7 @@ def main():
     screen = p.display.set_mode((WIDTH, HEIGHT))
     clock = p.time.Clock()
     screen.fill(p.Color("white"))
-    gs = CE.GameState()
+    gs = Ce.GameState()
     print(gs.board)
     load_images()
     running = True
